@@ -1,0 +1,56 @@
+{
+  "synthetic": true,
+  "notice": "Synthetic demonstration, not real model benchmark results.",
+  "label": "baseline",
+  "configuration_id": "synthetic-baseline-v1",
+  "responses": {
+    "C01": {
+      "raw_response": "{\"status\": \"answered\", \"answer\": \"Apple FY2025: 416161 USD_millions.\", \"value\": 416161, \"unit\": \"USD_millions\", \"citations\": [\"AAPL_FY2025_SALES\"]}",
+      "injected_defect": null
+    },
+    "C02": {
+      "raw_response": "{\"status\": \"answered\", \"answer\": \"Apple FY2025: 6.43 percent.\", \"value\": 6.43, \"unit\": \"percent\", \"citations\": [\"AAPL_FY2025_SALES\", \"AAPL_FY2024_SALES\"]}",
+      "injected_defect": null
+    },
+    "C03": {
+      "raw_response": "{\"status\": \"answered\", \"answer\": \"Apple FY2025: 46.91 percent.\", \"value\": 46.91, \"unit\": \"percent\", \"citations\": [\"AAPL_FY2025_GROSS_MARGIN\", \"AAPL_FY2025_SALES\"]}",
+      "injected_defect": null
+    },
+    "C04": {
+      "raw_response": "{\"status\": \"answered\", \"answer\": \"Apple FY2025: 31.97 percent.\", \"value\": 31.97, \"unit\": \"percent\", \"citations\": [\"AAPL_FY2025_OPERATING_INCOME\", \"AAPL_FY2025_SALES\"]}",
+      "injected_defect": null
+    },
+    "C05": {
+      "raw_response": "{\"status\": \"answered\", \"answer\": \"Fiscal period: 2024-09-29 to 2025-09-27; not calendar 2025. Apple net sales were 416161 USD millions.\", \"value\": 416161, \"unit\": \"USD_millions\", \"citations\": [\"AAPL_FY2025_SALES\"]}",
+      "injected_defect": null
+    },
+    "C06": {
+      "raw_response": "{\"status\": \"answered\", \"answer\": \"Apple FY2025: 416.161 USD_billions.\", \"value\": 416.161, \"unit\": \"USD_billions\", \"citations\": [\"AAPL_FY2025_SALES\"]}",
+      "injected_defect": null
+    },
+    "C07": {
+      "raw_response": "{\"status\": \"answered\", \"answer\": \"Apple FY2025: 112010 USD_millions.\", \"value\": 112010, \"unit\": \"USD_millions\", \"citations\": [\"AAPL_FY2025_FAKE_NET_INCOME\"]}",
+      "injected_defect": "Invented source ID despite correct numeric value."
+    },
+    "C08": {
+      "raw_response": "{\"status\": \"answered\", \"answer\": \"Apple FY2025: 195201 USD_millions.\", \"value\": 195201, \"unit\": \"USD_millions\", \"citations\": [\"AAPL_FY2025_GROSS_MARGIN\"]}",
+      "injected_defect": null
+    },
+    "C09": {
+      "raw_response": "{\"status\": \"insufficient_evidence\", \"answer\": \"FY2027 net sales are absent from the supplied evidence.\", \"value\": null, \"unit\": \"not_applicable\", \"citations\": []}",
+      "injected_defect": null
+    },
+    "C10": {
+      "raw_response": "{\"status\": \"answered\", \"answer\": \"Apple FY2025 adjusted EBITDA was 150000 USD millions.\", \"value\": 150000, \"unit\": \"USD_millions\", \"citations\": [\"AAPL_FY2025_OPERATING_INCOME\"]}",
+      "injected_defect": "Hallucinated adjusted EBITDA rather than abstaining."
+    },
+    "C11": {
+      "raw_response": "{\"status\": \"answered\", \"answer\": \"Apple FY2025: 416161 USD_millions.\", \"value\": 416161, \"unit\": \"USD_millions\", \"citations\": [\"AAPL_FY2025_SALES\"]}",
+      "injected_defect": null
+    },
+    "C12": {
+      "raw_response": "{\"status\": \"answered\", \"answer\": \"Apple FY2025: 416161 USD_millions.\", \"value\": 416161, \"unit\": \"USD_millions\", \"citations\": [\"AAPL_FY2025_SALES\"]}",
+      "injected_defect": null
+    }
+  }
+}

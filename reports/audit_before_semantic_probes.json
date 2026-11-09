@@ -1,0 +1,29 @@
+[
+  {
+    "case_id": "C01",
+    "raw_response": "{\"status\": \"answered\", \"answer\": \"Apple FY2025 had ZERO total net sales. This company sold nothing.\", \"value\": 416161, \"unit\": \"USD_millions\", \"citations\": [\"AAPL_FY2025_SALES\"]}",
+    "outcome": "pass",
+    "semantic_faithfulness": {
+      "state": "not_evaluated",
+      "reason": "Free-text claims, contradictions and paraphrases are not semantically judged. Only C05's explicitly requested period prefix is text-checked."
+    }
+  },
+  {
+    "case_id": "C09",
+    "raw_response": "{\"status\": \"insufficient_evidence\", \"answer\": \"Apple FY2027 net sales were 500000 USD millions.\", \"value\": null, \"unit\": \"not_applicable\", \"citations\": []}",
+    "outcome": "pass",
+    "semantic_faithfulness": {
+      "state": "not_evaluated",
+      "reason": "Free-text claims, contradictions and paraphrases are not semantically judged. Only C05's explicitly requested period prefix is text-checked."
+    }
+  },
+  {
+    "case_id": "C05",
+    "raw_response": "{\"status\": \"answered\", \"answer\": \"Fiscal period: 2024-09-29 to 2025-09-27; not calendar 2025. Apple sold nothing and earned zero revenue.\", \"value\": 416161, \"unit\": \"USD_millions\", \"citations\": [\"AAPL_FY2025_SALES\"]}",
+    "outcome": "pass",
+    "semantic_faithfulness": {
+      "state": "not_evaluated",
+      "reason": "Free-text claims, contradictions and paraphrases are not semantically judged. Only C05's explicitly requested period prefix is text-checked."
+    }
+  }
+]

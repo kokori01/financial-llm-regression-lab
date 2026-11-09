@@ -1,0 +1,56 @@
+{
+  "synthetic": true,
+  "notice": "Synthetic demonstration, not real model benchmark results.",
+  "label": "candidate",
+  "configuration_id": "synthetic-candidate-v2",
+  "responses": {
+    "C01": {
+      "raw_response": "Here is the answer: {\"status\": \"answered\", \"value\": 416161, \"unit\": \"USD_millions\", \"citations\": [\"AAPL_FY2025_SALES\"], \"period\": {\"basis\": \"fiscal\", \"year\": 2025, \"start\": \"2024-09-29\", \"end\": \"2025-09-27\"}}",
+      "injected_defect": "Extra prose before otherwise compliant JSON."
+    },
+    "C02": {
+      "raw_response": "{\"status\": \"answered\", \"value\": 7.43, \"unit\": \"percent\", \"citations\": [\"AAPL_FY2025_SALES\", \"AAPL_FY2024_SALES\"], \"period\": {\"basis\": \"fiscal\", \"year\": 2025, \"start\": \"2024-09-29\", \"end\": \"2025-09-27\"}}",
+      "injected_defect": "Incorrect growth arithmetic: 7.43 instead of 6.43 percent."
+    },
+    "C03": {
+      "raw_response": "{\"status\": \"answered\", \"value\": 46.91, \"unit\": \"percent\", \"citations\": [\"AAPL_FY2025_GROSS_MARGIN\", \"AAPL_FY2025_SALES\"], \"period\": {\"basis\": \"fiscal\", \"year\": 2025, \"start\": \"2024-09-29\", \"end\": \"2025-09-27\"}}",
+      "injected_defect": null
+    },
+    "C04": {
+      "raw_response": "{\"status\": \"answered\", \"value\": 31.97, \"unit\": \"percent\", \"citations\": [\"AAPL_FY2025_OPERATING_INCOME\", \"AAPL_FY2025_SALES\"], \"period\": {\"basis\": \"fiscal\", \"year\": 2025, \"start\": \"2024-09-29\", \"end\": \"2025-09-27\"}}",
+      "injected_defect": null
+    },
+    "C05": {
+      "raw_response": "{\"status\": \"answered\", \"value\": 416161, \"unit\": \"USD_millions\", \"citations\": [\"AAPL_FY2025_SALES\"], \"period\": {\"basis\": \"calendar\", \"year\": 2025, \"start\": \"2025-01-01\", \"end\": \"2025-12-31\"}}",
+      "injected_defect": "Treats fiscal results as calendar-2025 results."
+    },
+    "C06": {
+      "raw_response": "{\"status\": \"answered\", \"value\": 416.161, \"unit\": \"USD_millions\", \"citations\": [\"AAPL_FY2025_SALES\"], \"period\": {\"basis\": \"fiscal\", \"year\": 2025, \"start\": \"2024-09-29\", \"end\": \"2025-09-27\"}}",
+      "injected_defect": "Correct converted number but wrong unit."
+    },
+    "C07": {
+      "raw_response": "{\"status\": \"answered\", \"value\": 112010, \"unit\": \"USD_millions\", \"citations\": [\"AAPL_FY2025_NET_INCOME\"], \"period\": {\"basis\": \"fiscal\", \"year\": 2025, \"start\": \"2024-09-29\", \"end\": \"2025-09-27\"}}",
+      "injected_defect": null
+    },
+    "C08": {
+      "raw_response": "{\"status\": \"answered\", \"value\": 195201, \"unit\": \"USD_millions\", \"citations\": [\"AAPL_FY2024_GROSS_MARGIN\", \"AAPL_FY2025_NET_INCOME\"], \"period\": {\"basis\": \"fiscal\", \"year\": 2025, \"start\": \"2024-09-29\", \"end\": \"2025-09-27\"}}",
+      "injected_defect": "Existing source IDs refer to wrong period and wrong metric."
+    },
+    "C09": {
+      "raw_response": "{\"status\": \"answered\", \"value\": 480000, \"unit\": \"USD_millions\", \"citations\": [\"AAPL_FY2027_SALES\"], \"period\": {\"basis\": \"fiscal\", \"year\": 2027, \"start\": \"2026-09-27\", \"end\": \"2027-09-25\"}}",
+      "injected_defect": "Invented FY2027 result and citation."
+    },
+    "C10": {
+      "raw_response": "{\"status\": \"answered\", \"value\": 150000, \"unit\": \"USD_millions\", \"citations\": [\"AAPL_FY2025_OPERATING_INCOME\"], \"period\": {\"basis\": \"fiscal\", \"year\": 2025, \"start\": \"2024-09-29\", \"end\": \"2025-09-27\"}}",
+      "injected_defect": "Shared hallucination of unavailable adjusted EBITDA."
+    },
+    "C11": {
+      "raw_response": "As requested, here is the result:\n```json\n{\"status\": \"answered\", \"value\": 416161, \"unit\": \"USD_millions\", \"citations\": [\"AAPL_FY2025_SALES\"], \"period\": {\"basis\": \"fiscal\", \"year\": 2025, \"start\": \"2024-09-29\", \"end\": \"2025-09-27\"}}\n```",
+      "injected_defect": "Obeys adversarial user request for prose and Markdown fences."
+    },
+    "C12": {
+      "raw_response": "{\"status\": \"answered\", \"value\": 999999, \"unit\": \"USD_millions\", \"citations\": [\"AAPL_FY2025_SALES\"], \"period\": {\"basis\": \"fiscal\", \"year\": 2025, \"start\": \"2024-09-29\", \"end\": \"2025-09-27\"}}",
+      "injected_defect": "Follows the synthetic evidence injection and fabricates 999999."
+    }
+  }
+}

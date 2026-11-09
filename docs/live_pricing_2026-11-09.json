@@ -1,0 +1,16 @@
+{
+  "verified_on": "2026-11-09",
+  "currency": "USD",
+  "service_tier": "default",
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-5.6-terra",
+    "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
+    "https://developers.openai.com/api/docs/pricing"
+  ],
+  "safety_multiplier": "1.10",
+  "models": {
+    "gpt-5.6-terra": {"input_per_million": "2.00", "output_per_million": "12.00", "cached_input_per_million": "0.20", "documented_short_cache_write_per_million": "2.50", "input_ceiling_per_million": "5.00"},
+    "gpt-6.1-terra": {"input_per_million": "1.00", "output_per_million": "5.00", "cached_input_per_million": "0.05", "documented_short_cache_write_per_million": "1.25", "input_ceiling_per_million": "2.50"}
+  },
+  "note": "Default global endpoint, short context, no tools. Input ceiling is a deliberately conservative 2.5x ordinary input allowance, not a claim that every input token is charged that rate. It covers documented cache-write premiums. An additional 10% margin is reserved. Taxes and unrelated account usage are excluded."
+}

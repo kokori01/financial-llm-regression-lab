@@ -1,0 +1,167 @@
+{
+  "dataset_id": "apple-fy2025-10k-v1",
+  "description": "Seven consolidated annual facts from Apple FY2025 Form 10-K, including FY2024 comparative figures as presented in that filing. Frozen historical benchmark; USD millions.",
+  "verified_on": "2026-11-09",
+  "provenance": {
+    "filing_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000320193/c636d8a7-8025-47d2-9b13-bcf5465343b3.html",
+    "sec_filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+    "sec_index_url": "https://www.sec.gov/Archives/edgar/data/320193/0000320193-25-000079-index.htm",
+    "accession": "0000320193-25-000079",
+    "filed_on": "2025-10-31",
+    "verification_method": "Manually cross-checked all seven values against Item 8, page 29, row and year column; filing date and accession checked against SEC filing index. Only this filing is used, not Company Facts or later filings.",
+    "fiscal_period_method": "Fiscal year-end dates and 52-week durations verified in Item 8 and Note 1 (page 34). Starts are the day after the preceding fiscal year end; also visible in the filing context text.",
+    "downloaded_investor_html_sha256": "eb08113db1fa3b847936c68ddf7bd9c31b5d708c14794c94355fd38ac3846850",
+    "downloaded_investor_html_bytes": "1452459",
+    "snapshot_scope": "Original FY2025 filing, including its FY2024 comparatives; not a claim to reconstruct the original FY2024 filing. No quarterly facts or later restatements.",
+    "extraction": "Small manual transcription. Full filing is not bundled. The source hash identifies the retrieved investor HTML, not the SEC HTML."
+  },
+  "facts": [
+    {
+      "source_id": "AAPL_FY2025_SALES",
+      "company": "Apple Inc.",
+      "metric": "net_sales",
+      "fiscal_year": 2025,
+      "period_start": "2024-09-29",
+      "period_end": "2025-09-27",
+      "value": 416161,
+      "unit": "USD_millions",
+      "source": {
+        "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000320193/c636d8a7-8025-47d2-9b13-bcf5465343b3.html",
+        "sec_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+        "accession": "0000320193-25-000079",
+        "form": "10-K",
+        "filed_on": "2025-10-31",
+        "section": "Item 8, Consolidated Statements of Operations",
+        "page": 29,
+        "row": "Total net sales",
+        "column": "Year ended 2025-09-27"
+      }
+    },
+    {
+      "source_id": "AAPL_FY2024_SALES",
+      "company": "Apple Inc.",
+      "metric": "net_sales",
+      "fiscal_year": 2024,
+      "period_start": "2023-10-01",
+      "period_end": "2024-09-28",
+      "value": 391035,
+      "unit": "USD_millions",
+      "source": {
+        "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000320193/c636d8a7-8025-47d2-9b13-bcf5465343b3.html",
+        "sec_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+        "accession": "0000320193-25-000079",
+        "form": "10-K",
+        "filed_on": "2025-10-31",
+        "section": "Item 8, Consolidated Statements of Operations",
+        "page": 29,
+        "row": "Total net sales",
+        "column": "Year ended 2024-09-28"
+      }
+    },
+    {
+      "source_id": "AAPL_FY2025_GROSS_MARGIN",
+      "company": "Apple Inc.",
+      "metric": "gross_margin",
+      "fiscal_year": 2025,
+      "period_start": "2024-09-29",
+      "period_end": "2025-09-27",
+      "value": 195201,
+      "unit": "USD_millions",
+      "source": {
+        "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000320193/c636d8a7-8025-47d2-9b13-bcf5465343b3.html",
+        "sec_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+        "accession": "0000320193-25-000079",
+        "form": "10-K",
+        "filed_on": "2025-10-31",
+        "section": "Item 8, Consolidated Statements of Operations",
+        "page": 29,
+        "row": "Gross margin",
+        "column": "Year ended 2025-09-27"
+      }
+    },
+    {
+      "source_id": "AAPL_FY2024_GROSS_MARGIN",
+      "company": "Apple Inc.",
+      "metric": "gross_margin",
+      "fiscal_year": 2024,
+      "period_start": "2023-10-01",
+      "period_end": "2024-09-28",
+      "value": 180683,
+      "unit": "USD_millions",
+      "source": {
+        "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000320193/c636d8a7-8025-47d2-9b13-bcf5465343b3.html",
+        "sec_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+        "accession": "0000320193-25-000079",
+        "form": "10-K",
+        "filed_on": "2025-10-31",
+        "section": "Item 8, Consolidated Statements of Operations",
+        "page": 29,
+        "row": "Gross margin",
+        "column": "Year ended 2024-09-28"
+      }
+    },
+    {
+      "source_id": "AAPL_FY2025_OPERATING_INCOME",
+      "company": "Apple Inc.",
+      "metric": "operating_income",
+      "fiscal_year": 2025,
+      "period_start": "2024-09-29",
+      "period_end": "2025-09-27",
+      "value": 133050,
+      "unit": "USD_millions",
+      "source": {
+        "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000320193/c636d8a7-8025-47d2-9b13-bcf5465343b3.html",
+        "sec_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+        "accession": "0000320193-25-000079",
+        "form": "10-K",
+        "filed_on": "2025-10-31",
+        "section": "Item 8, Consolidated Statements of Operations",
+        "page": 29,
+        "row": "Operating income",
+        "column": "Year ended 2025-09-27"
+      }
+    },
+    {
+      "source_id": "AAPL_FY2025_NET_INCOME",
+      "company": "Apple Inc.",
+      "metric": "net_income",
+      "fiscal_year": 2025,
+      "period_start": "2024-09-29",
+      "period_end": "2025-09-27",
+      "value": 112010,
+      "unit": "USD_millions",
+      "source": {
+        "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000320193/c636d8a7-8025-47d2-9b13-bcf5465343b3.html",
+        "sec_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+        "accession": "0000320193-25-000079",
+        "form": "10-K",
+        "filed_on": "2025-10-31",
+        "section": "Item 8, Consolidated Statements of Operations",
+        "page": 29,
+        "row": "Net income",
+        "column": "Year ended 2025-09-27"
+      }
+    },
+    {
+      "source_id": "AAPL_FY2024_NET_INCOME",
+      "company": "Apple Inc.",
+      "metric": "net_income",
+      "fiscal_year": 2024,
+      "period_start": "2023-10-01",
+      "period_end": "2024-09-28",
+      "value": 93736,
+      "unit": "USD_millions",
+      "source": {
+        "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000320193/c636d8a7-8025-47d2-9b13-bcf5465343b3.html",
+        "sec_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+        "accession": "0000320193-25-000079",
+        "form": "10-K",
+        "filed_on": "2025-10-31",
+        "section": "Item 8, Consolidated Statements of Operations",
+        "page": 29,
+        "row": "Net income",
+        "column": "Year ended 2024-09-28"
+      }
+    }
+  ]
+}

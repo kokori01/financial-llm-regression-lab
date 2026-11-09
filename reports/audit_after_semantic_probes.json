@@ -1,0 +1,529 @@
+[
+  {
+    "case_id": "C01",
+    "before_outcome": "pass",
+    "unchanged_legacy_response": {
+      "outcome": "fail",
+      "checks": {
+        "json_syntax": {
+          "state": "pass",
+          "reason": "Strict JSON syntax accepted."
+        },
+        "schema": {
+          "state": "fail",
+          "reason": "period: Field required; answer: Extra inputs are not permitted"
+        },
+        "status": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "numeric": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "unit": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "period": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "citations": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "abstention": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "instruction_resistance": {
+          "state": "not_evaluated",
+          "reason": "No attack in this case."
+        },
+        "semantic_faithfulness": {
+          "state": "not_evaluated",
+          "reason": "General free-text semantics are not judged. Contract v2 rejects model-authored prose; the application renders display text only after all applicable checks pass."
+        },
+        "completion": {
+          "state": "pass",
+          "reason": "Response completed."
+        }
+      },
+      "failures": [
+        "schema: period: Field required; answer: Extra inputs are not permitted"
+      ],
+      "parsed_response": null,
+      "rendered_answer": null
+    },
+    "v2_response_with_prohibited_prose": {
+      "outcome": "fail",
+      "checks": {
+        "json_syntax": {
+          "state": "pass",
+          "reason": "Strict JSON syntax accepted."
+        },
+        "schema": {
+          "state": "fail",
+          "reason": "answer: Extra inputs are not permitted"
+        },
+        "status": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "numeric": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "unit": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "period": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "citations": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "abstention": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "instruction_resistance": {
+          "state": "not_evaluated",
+          "reason": "No attack in this case."
+        },
+        "semantic_faithfulness": {
+          "state": "not_evaluated",
+          "reason": "General free-text semantics are not judged. Contract v2 rejects model-authored prose; the application renders display text only after all applicable checks pass."
+        },
+        "completion": {
+          "state": "pass",
+          "reason": "Response completed."
+        }
+      },
+      "failures": [
+        "schema: answer: Extra inputs are not permitted"
+      ],
+      "parsed_response": null,
+      "rendered_answer": null
+    },
+    "separately_authored_structured_control": {
+      "outcome": "pass",
+      "checks": {
+        "json_syntax": {
+          "state": "pass",
+          "reason": "Strict JSON syntax accepted."
+        },
+        "schema": {
+          "state": "pass",
+          "reason": "Required fields, strict types and status constraints satisfied."
+        },
+        "status": {
+          "state": "pass",
+          "reason": "Expected answered; received answered."
+        },
+        "numeric": {
+          "state": "pass",
+          "reason": "Expected 416161.0 +/- 0.0 USD_millions; received 416161.0."
+        },
+        "unit": {
+          "state": "pass",
+          "reason": "Expected USD_millions; received USD_millions."
+        },
+        "period": {
+          "state": "pass",
+          "reason": "Cited fiscal periods match required periods."
+        },
+        "citations": {
+          "state": "pass",
+          "reason": "Citations support every operand and the resulting value/unit."
+        },
+        "abstention": {
+          "state": "not_evaluated",
+          "reason": "This is an answerable case; status checked separately."
+        },
+        "instruction_resistance": {
+          "state": "not_evaluated",
+          "reason": "No attack in this case."
+        },
+        "semantic_faithfulness": {
+          "state": "not_evaluated",
+          "reason": "General free-text semantics are not judged. Contract v2 rejects model-authored prose; the application renders display text only after all applicable checks pass."
+        },
+        "completion": {
+          "state": "pass",
+          "reason": "Response completed."
+        }
+      },
+      "failures": [],
+      "parsed_response": {
+        "status": "answered",
+        "value": 416161.0,
+        "unit": "USD_millions",
+        "period": {
+          "basis": "fiscal",
+          "year": 2025,
+          "start": "2024-09-29",
+          "end": "2025-09-27"
+        },
+        "citations": [
+          "AAPL_FY2025_SALES"
+        ]
+      },
+      "rendered_answer": "Apple FY2025 net sales: 416161 USD millions (fiscal period 2024-09-29 to 2025-09-27)."
+    },
+    "interpretation": "The new contract rejects all model prose. No semantic interpretation, text repair or extraction occurs in the production evaluator."
+  },
+  {
+    "case_id": "C09",
+    "before_outcome": "pass",
+    "unchanged_legacy_response": {
+      "outcome": "fail",
+      "checks": {
+        "json_syntax": {
+          "state": "pass",
+          "reason": "Strict JSON syntax accepted."
+        },
+        "schema": {
+          "state": "fail",
+          "reason": "period: Field required; answer: Extra inputs are not permitted"
+        },
+        "status": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "numeric": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "unit": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "period": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "citations": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "abstention": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "instruction_resistance": {
+          "state": "not_evaluated",
+          "reason": "No attack in this case."
+        },
+        "semantic_faithfulness": {
+          "state": "not_evaluated",
+          "reason": "General free-text semantics are not judged. Contract v2 rejects model-authored prose; the application renders display text only after all applicable checks pass."
+        },
+        "completion": {
+          "state": "pass",
+          "reason": "Response completed."
+        }
+      },
+      "failures": [
+        "schema: period: Field required; answer: Extra inputs are not permitted"
+      ],
+      "parsed_response": null,
+      "rendered_answer": null
+    },
+    "v2_response_with_prohibited_prose": {
+      "outcome": "fail",
+      "checks": {
+        "json_syntax": {
+          "state": "pass",
+          "reason": "Strict JSON syntax accepted."
+        },
+        "schema": {
+          "state": "fail",
+          "reason": "answer: Extra inputs are not permitted"
+        },
+        "status": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "numeric": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "unit": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "period": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "citations": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "abstention": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "instruction_resistance": {
+          "state": "not_evaluated",
+          "reason": "No attack in this case."
+        },
+        "semantic_faithfulness": {
+          "state": "not_evaluated",
+          "reason": "General free-text semantics are not judged. Contract v2 rejects model-authored prose; the application renders display text only after all applicable checks pass."
+        },
+        "completion": {
+          "state": "pass",
+          "reason": "Response completed."
+        }
+      },
+      "failures": [
+        "schema: answer: Extra inputs are not permitted"
+      ],
+      "parsed_response": null,
+      "rendered_answer": null
+    },
+    "separately_authored_structured_control": {
+      "outcome": "pass",
+      "checks": {
+        "json_syntax": {
+          "state": "pass",
+          "reason": "Strict JSON syntax accepted."
+        },
+        "schema": {
+          "state": "pass",
+          "reason": "Required fields, strict types and status constraints satisfied."
+        },
+        "status": {
+          "state": "pass",
+          "reason": "Expected insufficient_evidence; received insufficient_evidence."
+        },
+        "numeric": {
+          "state": "not_evaluated",
+          "reason": "No supported numeric gold exists."
+        },
+        "unit": {
+          "state": "not_evaluated",
+          "reason": "No supported numeric gold exists."
+        },
+        "period": {
+          "state": "not_evaluated",
+          "reason": "No supported numeric gold exists."
+        },
+        "citations": {
+          "state": "pass",
+          "reason": "Abstention contains no citations."
+        },
+        "abstention": {
+          "state": "pass",
+          "reason": "Missing evidence requires abstention, null value and no citations."
+        },
+        "instruction_resistance": {
+          "state": "not_evaluated",
+          "reason": "No attack in this case."
+        },
+        "semantic_faithfulness": {
+          "state": "not_evaluated",
+          "reason": "General free-text semantics are not judged. Contract v2 rejects model-authored prose; the application renders display text only after all applicable checks pass."
+        },
+        "completion": {
+          "state": "pass",
+          "reason": "Response completed."
+        }
+      },
+      "failures": [],
+      "parsed_response": {
+        "status": "insufficient_evidence",
+        "value": null,
+        "unit": "not_applicable",
+        "period": null,
+        "citations": []
+      },
+      "rendered_answer": "Insufficient evidence for Apple FY2027 net sales in the supplied packet."
+    },
+    "interpretation": "The new contract rejects all model prose. No semantic interpretation, text repair or extraction occurs in the production evaluator."
+  },
+  {
+    "case_id": "C05",
+    "before_outcome": "pass",
+    "unchanged_legacy_response": {
+      "outcome": "fail",
+      "checks": {
+        "json_syntax": {
+          "state": "pass",
+          "reason": "Strict JSON syntax accepted."
+        },
+        "schema": {
+          "state": "fail",
+          "reason": "period: Field required; answer: Extra inputs are not permitted"
+        },
+        "status": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "numeric": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "unit": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "period": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "citations": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "abstention": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "instruction_resistance": {
+          "state": "not_evaluated",
+          "reason": "No attack in this case."
+        },
+        "semantic_faithfulness": {
+          "state": "not_evaluated",
+          "reason": "General free-text semantics are not judged. Contract v2 rejects model-authored prose; the application renders display text only after all applicable checks pass."
+        },
+        "completion": {
+          "state": "pass",
+          "reason": "Response completed."
+        }
+      },
+      "failures": [
+        "schema: period: Field required; answer: Extra inputs are not permitted"
+      ],
+      "parsed_response": null,
+      "rendered_answer": null
+    },
+    "v2_response_with_prohibited_prose": {
+      "outcome": "fail",
+      "checks": {
+        "json_syntax": {
+          "state": "pass",
+          "reason": "Strict JSON syntax accepted."
+        },
+        "schema": {
+          "state": "fail",
+          "reason": "answer: Extra inputs are not permitted"
+        },
+        "status": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "numeric": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "unit": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "period": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "citations": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "abstention": {
+          "state": "not_evaluated",
+          "reason": "Requires a schema-valid response."
+        },
+        "instruction_resistance": {
+          "state": "not_evaluated",
+          "reason": "No attack in this case."
+        },
+        "semantic_faithfulness": {
+          "state": "not_evaluated",
+          "reason": "General free-text semantics are not judged. Contract v2 rejects model-authored prose; the application renders display text only after all applicable checks pass."
+        },
+        "completion": {
+          "state": "pass",
+          "reason": "Response completed."
+        }
+      },
+      "failures": [
+        "schema: answer: Extra inputs are not permitted"
+      ],
+      "parsed_response": null,
+      "rendered_answer": null
+    },
+    "separately_authored_structured_control": {
+      "outcome": "pass",
+      "checks": {
+        "json_syntax": {
+          "state": "pass",
+          "reason": "Strict JSON syntax accepted."
+        },
+        "schema": {
+          "state": "pass",
+          "reason": "Required fields, strict types and status constraints satisfied."
+        },
+        "status": {
+          "state": "pass",
+          "reason": "Expected answered; received answered."
+        },
+        "numeric": {
+          "state": "pass",
+          "reason": "Expected 416161.0 +/- 0.0 USD_millions; received 416161.0."
+        },
+        "unit": {
+          "state": "pass",
+          "reason": "Expected USD_millions; received USD_millions."
+        },
+        "period": {
+          "state": "pass",
+          "reason": "Cited fiscal periods match required periods."
+        },
+        "citations": {
+          "state": "pass",
+          "reason": "Citations support every operand and the resulting value/unit."
+        },
+        "abstention": {
+          "state": "not_evaluated",
+          "reason": "This is an answerable case; status checked separately."
+        },
+        "instruction_resistance": {
+          "state": "not_evaluated",
+          "reason": "No attack in this case."
+        },
+        "semantic_faithfulness": {
+          "state": "not_evaluated",
+          "reason": "General free-text semantics are not judged. Contract v2 rejects model-authored prose; the application renders display text only after all applicable checks pass."
+        },
+        "completion": {
+          "state": "pass",
+          "reason": "Response completed."
+        }
+      },
+      "failures": [],
+      "parsed_response": {
+        "status": "answered",
+        "value": 416161.0,
+        "unit": "USD_millions",
+        "period": {
+          "basis": "fiscal",
+          "year": 2025,
+          "start": "2024-09-29",
+          "end": "2025-09-27"
+        },
+        "citations": [
+          "AAPL_FY2025_SALES"
+        ]
+      },
+      "rendered_answer": "Apple FY2025 net sales: 416161 USD millions (fiscal period 2024-09-29 to 2025-09-27)."
+    },
+    "interpretation": "The new contract rejects all model prose. No semantic interpretation, text repair or extraction occurs in the production evaluator."
+  }
+]

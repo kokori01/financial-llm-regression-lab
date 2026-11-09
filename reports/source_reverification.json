@@ -1,0 +1,40 @@
+{
+  "verified_on": "2026-11-09",
+  "source_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000320193/c636d8a7-8025-47d2-9b13-bcf5465343b3.html",
+  "download_sha256": "eb08113db1fa3b847936c68ddf7bd9c31b5d708c14794c94355fd38ac3846850",
+  "download_bytes": 1452459,
+  "row_checks": [
+    {
+      "row": "Total net sales",
+      "verified_values": [
+        "416,161",
+        "391,035"
+      ],
+      "observed_row": "Total net sales $ 416,161 6 % $ 391,035 2 % $ 383,285"
+    },
+    {
+      "row": "Gross margin",
+      "verified_values": [
+        "195,201",
+        "180,683"
+      ],
+      "observed_row": "Gross margin 195,201 180,683 169,148"
+    },
+    {
+      "row": "Operating income",
+      "verified_values": [
+        "133,050"
+      ],
+      "observed_row": "Operating income 133,050 123,216 114,301"
+    },
+    {
+      "row": "Net income",
+      "verified_values": [
+        "112,010",
+        "93,736"
+      ],
+      "observed_row": "Net income $ 112,010 $ 93,736 $ 96,995"
+    }
+  ],
+  "method": "Retrieved source anew; independently matched every included number against filing table rows. Fiscal convention and dates are retained from the same unchanged source."
+}

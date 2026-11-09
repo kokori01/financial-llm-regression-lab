@@ -1,0 +1,43 @@
+# Only the reviewed project surface is eligible for publication.
+/*
+!/.gitignore
+!/README.md
+!/pyproject.toml
+!/requirements-tested.txt
+!/docs/
+!/scripts/
+!/src/
+!/tests/
+!/reports/
+
+# Local credentials, working state and build products are never public.
+.env
+.env.*
+*.key
+*.pem
+*.zip
+.private/
+PROJECT_MEMORY.md
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.DS_Store
+/docs/TECHNICAL_SUMMARY.md
+/docs/PORTFOLIO_DESCRIPTION.md
+
+# Original runs/journals stay local. Publish only named reviewed evidence.
+/reports/*
+!/reports/README.md
+!/reports/sample_report_v2.md
+!/reports/sample_report_v2.json
+!/reports/audit_before_semantic_probes.json
+!/reports/audit_after_semantic_probes.json
+!/reports/source_reverification.json
+!/reports/public/
+/reports/public/*
+!/reports/public/live_model_comparison_20261109.md
+!/reports/public/live_model_comparison_20261109.json
